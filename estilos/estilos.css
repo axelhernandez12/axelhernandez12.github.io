@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color:red;
+    background-color: blue;
+    text-transform: uppercase;
+    
+}
+p{
+    text-align: left;
+    color: red;
+
+}
+body{
+    background-color:black;
+}
+fieldset{
+    color: red;
+}
+nav{
+    background-color: blue;
+    background-size: 100%;
+    text-align: center;
+}
