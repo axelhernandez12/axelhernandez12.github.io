@@ -1,10 +1,4 @@
-h1{
-    text-align: center;
-    color:red;
-    background-color: blue;
-    text-transform: uppercase;
-    
-}
+
 body{
     background-image: url('/img/neon.jpg');
 }
@@ -20,7 +14,7 @@ body{
     background-color:blue;
     padding: 50px;
     margin:auto;
-    margin-top: 200px;
+    margin-top: 50px;
     border-radius: 50px;
     font-family:'calibri';
     color:black;
@@ -66,9 +60,11 @@ body{
 
 
 nav{
-    background-color: red;
+    background-color: black;
     background-size: 100%;
     text-align: center;
+    height: 80px; 
 }
-
-
+.encabezado{
+    display: inline;
+}
