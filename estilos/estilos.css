@@ -59,12 +59,10 @@ body{
 }
 
 
-nav{
+header{
     background-color: black;
     background-size: 100%;
     text-align: center;
     height: 80px; 
-}
-.encabezado{
-    display: inline;
+    display: flex;
 }
