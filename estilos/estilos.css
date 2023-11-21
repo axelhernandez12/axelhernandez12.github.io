@@ -58,11 +58,38 @@ body{
     
 }
 
+.cabeza{
+    height: 100px;
+    background-color:#03A9F4;
+    clear: both;
+    
 
-header{
-    background-color: black;
-    background-size: 100%;
-    text-align: center;
-    height: 80px; 
-    display: flex;
 }
+.menu{
+    width:900px;
+    margin:0 auto;
+}
+nav{
+    float: right;
+
+    
+}
+nav ul li{
+    list-style-type:none;
+    margin-left:75px;
+    padding: 12px 0;
+    float: left;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#444;
+    font-weigth:bold;
+}
+.hover:hover{
+    background-color:blue;
+}
+.hover:active{
+    background-color: black;
+}
+
+
