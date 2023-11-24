@@ -1,4 +1,4 @@
-
+/*/Comienzo de formulario/*/
 *{
    margin: 0;
    padding: 0;
@@ -49,8 +49,8 @@
     padding:12px;
     margin: 16px 0;
     font-size: 16px;
-
-    
+  /*/Fin de formulario/*/
+  /*/Comienzo de nav /*/   
 }
 .container {
     margin: 20px auto;
@@ -73,6 +73,8 @@
     padding: 10px;
     width: 15%;
   }
+  /*/ Fin de nav/*/ 
+  /*/Comienzo de columnas /*/
   .sidebar {
     background-color: black;
     color: white;
@@ -84,10 +86,24 @@
   .sidebar div {
     padding: 10px;
   }
+  .locotron {
+    background-color: black;
+    color: white;
+    float: right;
+    height: 500px;
+    margin-top: 30px;
+    width: 15%;
+  }
+  .locotron div {
+    padding: 10px;
+  }
+  /*/ Fin de columnas/*/
+  /*/ Pie de pagina/*/
+
   footer {
     background-color: lightgrey;
     clear: both;
     padding: 20px;
     text-align: center;
   }
-
+  /*/ Fin de Pagina /*/ 
