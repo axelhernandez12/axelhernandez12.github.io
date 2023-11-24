@@ -1,8 +1,4 @@
 
-body{
-    background-image: url('/img/neon.jpg');
-}
-
 *{
    margin: 0;
    padding: 0;
@@ -14,7 +10,7 @@ body{
     background-color:blue;
     padding: 50px;
     margin:auto;
-    margin-top: 50px;
+    margin-top: 40px;
     border-radius: 50px;
     font-family:'calibri';
     color:black;
@@ -29,12 +25,11 @@ body{
     padding: 15px;
     border-radius: 4px;
     margin-bottom:15px;
-    border: 30 px soid;
     font-family:'calibri';
     font-size: 18px;
 }
 .form-register p{
-    heigth: 40px;
+    height: 40px;
     text-align:center;
     font-size: 18px;
     
@@ -57,45 +52,42 @@ body{
 
     
 }
-
-.cabeza{
-    height: 100px;
-    background-color:#03A9F4;
-    height: 150px;
-
-}
-.menu{
-    width:700px;
-    margin:0 auto;
-}
-nav{
-    float: right;
- 
-}
-nav ul li{
-    list-style-type:none;
-    margin-left:75px;
-    padding: 12px 0;
-    float: left;
-}
-nav ul li a{
-    text-decoration:none;
-    color:#444;
-    font-weigth:bold;
-}
-.hover:hover{
-    background-color:blue;
-}
-.hover:active{
+.container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  h1 {
+    text-align: center;
+  }
+  nav {
     background-color: black;
-}
-img{
-    height: 150px;
-    width: 150px;
-    float: right;
-}
-aside{
+    color: white;
+  }
+  nav div {
+    display: inline-block;
+    padding: 10px;
+    width: 15%;
+  }
+  nav div {
+    display: inline-block;
+    padding: 10px;
+    width: 15%;
+  }
+  .sidebar {
+    background-color: black;
+    color: white;
     float: left;
-    
-    
-}
+    height: 500px;
+    margin-top: 30px;
+    width: 15%;
+  }
+  .sidebar div {
+    padding: 10px;
+  }
+  footer {
+    background-color: lightgrey;
+    clear: both;
+    padding: 20px;
+    text-align: center;
+  }
+
