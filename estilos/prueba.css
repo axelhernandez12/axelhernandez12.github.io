@@ -1,0 +1,67 @@
+.izquierdo{
+    float: left;
+    width: 150px;
+    background-color: yellow;
+    height: 500px;
+}
+.prueba{
+    display: flex;
+    height: 500px;
+}
+.derecho{
+    float: right;
+    width: 150px;
+    background-color: red;
+    height: 500px;   
+}
+body{
+    margin: auto;
+    background-color: black;
+}
+main{
+    flex: 1;
+    display: flex;
+    background-color: white;
+    background-image: url(../img/cielo.jpg);
+}
+.columna1{
+    width: 30%;
+    background-color: blue;
+    margin-left: 10%;
+    height: 300px;
+
+}
+.columna2{
+    margin-left: 5%;
+    width: 30%;
+    background-color: antiquewhite;
+    margin-right: 5%;
+    height: 300px;
+}
+.columna3{
+    width: 30%;
+    margin-right: 10%;
+    height: 300px;
+}
+.container{
+    font-family: justify;
+    padding: 30px;
+}
+nav div {
+    display: inline-block;
+    padding: 20px;
+    width: 20%;
+}
+  nav {
+    background-color:black;
+    padding:15px;
+    text-align:center;
+ 
+}
+  footer{
+    background-color: aqua;
+    text-align: center;
+    padding: 2px;
+}
+
+  
