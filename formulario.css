@@ -1,29 +1,19 @@
 /*/Comienzo de formulario/*/
 *{
-   margin: 0;
-   padding: 0;
+   margin: 0px;
+   padding: 0px;
    box-sizing: border-box;
-   font-size: 20px;
    font-style: unset;
    color: white;
-   
-   
-
-
 }
 body{
   background-image:url(../img/cielo.jpg) ;
-  background-position: center;
-  background-size: 100%;
-
-  
 }
 .form-register{
     width: 500px;
     background-color: black;
     padding: 50px;
     margin:auto;
-    margin-top: 40px;
     border-radius: 50px;
     font-family:'calibri';
     color:black;
@@ -93,7 +83,7 @@ h3{
   nav div {
     display: inline-block;
     padding: 10px;
-    width: 15%;
+    width: 10%;
   }
   .nav-item:hover{
     background-color:blue;
@@ -114,45 +104,12 @@ h3{
     font-size:25px;
   }
   /*/ Fin de nav/*/ 
-  /*/Comienzo de columnas /*/
-  .sidebar {
-    background-color: black;
-    color: black;
-    float: left;
-    height: 600px;
-    margin-top: 30px;
-    width: 15%;
-    text-decoration : none;
-    font-family: calibri;
-    border-radius:50px;
-    padding:5px;
-    text-align:center;
-  }
-  .sidebar div {
-    padding: 10px;
-  }
-  .locotron {
-    background-color:black;
-    color: white;
-    float: right;
-    height: 600px;
-    margin-top: 30px;
-    width: 15%;
-    border-radius:50px;
-    padding:5px;
-    text-align:center;
-  }
-  .locotron div {
-    padding: 10px;
-    
-  }
   .menu-item:hover{
       background-color: blue;
   }
   .menu-item:active{
     background-color: blue;
   }
-  /*/ Fin de columnas/*/
   /*/ Pie de pagina/*/
 
   footer {
@@ -164,57 +121,3 @@ h3{
     border-radius:25px;
   }
   /*/ Fin de Pagina /*/ 
-  /*/index pagina principal/*/
-  .section img{
-    width: 30px;
-  }
-  section.courses{
-    float: left;
-    margin-left:5%;
-    width: 60%;
-    padding:5px
-  }
-  .courses img {
-    width: 200px;
-  }
-  .courses{
-    font-size:0.8em;
-    text-align: center;
-    border: 1px solid red;
-    border-radius: 10px;
-    padding: 10px;
-    background-color:black;
-    
-    
-  }
-  .spotify:hover{
-    background-color:blue;
-  }
-  .columnas1{
-    width: 10px;
-    float: right;
-  }
-  .columnas2{
-    width: 10px;
-  }
-  .columnas3{
-    width: 10px;
-  }
-  /*/ Curriculum /*/ 
-  .tabla{
-    max-width: 50%;
-    margin:0 auto; 
-    padding: 25px;
-    border: solid black;
-    background-color : white ;
-  }
-  .borde{
-    border-bottom: solid 3px;
-    color:black;
-  }
-  li{
-    color:black;
-  }
-  H2{
-    color:black;
-  }

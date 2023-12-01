@@ -1,0 +1,162 @@
+/*/Comienzo de formulario/*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-style: unset;
+    color: white;
+}
+ body{
+   background-image:url(../img/cielo.jpg) ;
+   margin: auto;
+   background-color: white;
+}
+
+.form-register {
+     width: 450px;
+     background-color: blue;
+     padding: 40px;
+     margin:auto;
+     border-radius: 50px;
+     color:black;
+
+}
+.form-register h3{
+     font-size: 40px;
+     margin-bottom: 10px;
+ }
+.controls{
+     width:300px;
+     background-color:white; 
+     padding: 15px;
+     border-radius: 4px;
+     margin-bottom:15px;
+     font-family:'calibri';
+     font-size: 18px;
+     color: black;
+     height: 70px;
+}
+.form-register p{
+     height: 40px;
+     text-align:center;
+     font-size: 18px;
+     
+}
+.form-register a{
+     color:white;
+     text-decoration: none;
+ 
+}
+.form-register a:hover {
+     color:white;
+     text-decoration: underline;
+}
+.form-register .button{
+     border:none;
+     padding:12px;
+     margin: 16px 0;
+     font-size: 16px;
+ 
+   /*/Fin de formulario/*/
+   /*/Comienzo de nav /*/   
+}
+p{
+   color:white;
+   font-size:30px;
+}
+h3{
+   color:white;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size:40px;
+}
+nav {
+     background-color:black;
+     border-radius:25px;
+     padding:5px;
+     text-align:center;
+}
+nav div {
+     display: inline-block;
+     padding: 10px;
+     width: 10%;
+}
+.nav-item:hover{
+     background-color:blue;
+}
+nav div {
+     display: inline-block;
+     padding: 10px;
+     width: 15%;
+}
+.menu-item:hover{
+     background-color:blue;
+}
+.menu-item:active{
+     background-color:pink;
+}
+a{
+     text-decoration-style:double;
+     font-size:25px;
+}
+.menu-item:hover{
+       background-color: blue;
+}
+.menu-item:active{
+     background-color: blue;
+}
+   /*/ Fin de Pagina /*/
+.prueba{
+    display: flex;
+    height: 800px;
+} 
+.izquierdo {
+    float: left;
+    width: 150px;
+    background-color: yellow;
+    height: 800px;
+}
+
+.derecho{
+    float: right;
+    width: 150px;
+    background-color: red;
+    height: 800px;   
+}
+main{
+    flex: 1;
+    display: flex;
+    background-color: white;   
+}
+.columna1{
+    width: 30%;
+    background-color: blue;
+    margin-left: 10%;
+    height: 300px;
+
+}
+.columna2{
+    margin-left: 5%;
+    width: 30%;
+    background-color: antiquewhite;
+    margin-right: 5%;
+    height: 300px;
+}
+.columna3{
+    width: 30%;
+    margin-right: 10%;
+    height: 300px;
+}
+.container{
+    font-family: justify;
+    padding: 10px;
+}
+  footer{
+    background-color: aqua;
+    text-align: center;
+    padding: 2px;
+}
+
+  
