@@ -1,52 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Index.css">
 </head>
+
 <body>
     <header>
+        <h1>Pagina Principal</h1>
         <div class="container">
             <nav>
                 <div class="nav-item">
-                    <a href="../formulario/curriculum.html" target="_blank">Curriculum</a>
+                    <a href="./curriculum.html" target="_blank">Curriculum</a>
                 </div>
                 <div class="nav-item">
-                    <a href="../formulario/sobre el Proyecto.html" target="_blank">Sobre el Proyecto</a>
+                    <a href="./sobreelproyecto.html" target="_blank">Sobre el Proyecto</a>
                 </div>
                 <div class="nav-item">
-                    <a href="../formulario/Formulario.html" target="_blank">Formulario</a>
+                    <a href="./formularionuevo.html" target="_blank">Formulario</a>
                 </div>
             </nav>
+        </div>
     </header>
-    <div class="prueba">
-        <aside class="izquierdo"><p>2 cosas que no dejaria de hacer</p></aside>
-        <main>
-            <div class="columna1">
-                <h3>Caracteristica Personal</h3>
-                <p>Caracteristicas</p>
-            </div>
-            <div class="columna2">
-                <h3>Caracteristica Personal</h3>
-                <p>Caracteristicas</p>
-            </div>
-            <div class="columna3">
-                <h3>Caracteristica Personal</h3>
-                <p>Caracteristicas</p>
-            </div>
-        </main>
-        <aside class="derecho"><p>2 cosas que no dejaria de hacer </p></aside>        
-    </div>
+    <aside id="izquierdo">
+        <h2>Actividades que nunca dejaria de hacer</h2>
+        <figure class="imagen">
+            <img src="./img/musica.webp" alt="musica" width="200" height="90">
+            <figcaption class="imagen2">Nunca dejaria de escuchar musica</figcaption>
+        </figure>
+        <figure class="imagen">
+            <img src="./img/mando.jpeg" alt="mando" width="200" height="90">
+            <figcaption class="imagen2">Nunca dejaria de jugar videojuegos</figcaption>
+        </figure> 
+    </aside>
 
-
+    <aside id="derecho">
+        <h2>Enlace Web que uso con más frecuencia.</h2>
+        <img src="./img/youtube.jpg" alt="youtube" id="youtube" width="200" height="100">
+        <div class="youtube2">
+            <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+            <p>Youtube utiliza como lenguaje de marca HTML.</p>
+        </div>
+    </aside>
+    <main>
+        <div class="central">
+            <fieldset>
+                <h2>Tres Características sobre mi</h2>
+            </fieldset>
+            <section class="columnas">
+                <div class="columna1">
+                    <h2>Gracioso</h2>
+                    <p>Me considero una persona graciosa, cuando quiero a veces digo cosas que no deberia de decir</p>
+                </div>
+                <div class="columna2">
+                    <h2>Confianza</h2>
+                    <p>Me considero una persona que tiene bastente en si mismo, en las peores situacines sabria llevar la situacion</p>
+                </div>
+                <div class="columna3">
+                    <h2>Seguro</h2>
+                    <p>Me considero una persona que esta seguro de lo que dice y lo que hace</p>
+                </div>
+            </section>
+        </div>
+    </main>
     <footer>
-        <p>pie de pagina </p>
+        <p>1 Evaluación Proyecto Axel Mauricio Hernández Alvaraddo</p>
     </footer>
-
-
-
-
 </body>
+
 </html>

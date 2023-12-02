@@ -1,44 +1,61 @@
 /*/Comienzo de formulario/*/
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-style: unset;
     color: white;
 }
- body{
-   background-image:url(../img/cielo.jpg) ;
+body {
+   background-image:url(./img/pared\ blanca.avif) ;
    margin: auto;
    background-color: white;
 }
-
+header {
+     position: sticky;
+     top: 0;
+     z-index: 1;
+}
 .form-register {
-     width: 450px;
-     background-color: blue;
+     width: 700px;
+     background-color: white;
      padding: 40px;
      margin:auto;
      border-radius: 50px;
      color:black;
+     height: 500px;
+     border: solid black;
 
 }
-.form-register h3{
+.form-register h3 {
      font-size: 40px;
-     margin-bottom: 10px;
+     margin-bottom: 5px;
  }
-.controls{
-     width:300px;
+.controls {
+     width: 200px;
      background-color:white; 
-     padding: 15px;
+     padding: 5px;
      border-radius: 4px;
      margin-bottom:15px;
      font-family:'calibri';
-     font-size: 18px;
+     font-size: 15px;
      color: black;
      height: 70px;
 }
+.rojo {
+     margin-top: 10px;
+     width: 180px;
+     background-color:white; 
+     padding: 5px;
+     border-radius: 4px;
+     margin-bottom:15px;
+     font-family:'calibri';
+     font-size: 15px;
+     color: black;
+}
+
 .form-register p{
      height: 40px;
-     text-align:center;
      font-size: 18px;
      
 }
@@ -52,20 +69,23 @@
      text-decoration: underline;
 }
 .form-register .button{
-     border:none;
+     border: none;
      padding:12px;
-     margin: 16px 0;
+     margin: 0px 50px;
      font-size: 16px;
  
    /*/Fin de formulario/*/
    /*/Comienzo de nav /*/   
 }
+.Joan{
+     margin-right: 400px;
+}
 p{
-   color:white;
+   color:black;
    font-size:30px;
 }
 h3{
-   color:white;
+   color:black;
 }
 h1 {
     text-align: center;
@@ -91,72 +111,46 @@ nav div {
      padding: 10px;
      width: 15%;
 }
-.menu-item:hover{
-     background-color:blue;
-}
-.menu-item:active{
-     background-color:pink;
-}
-a{
-     text-decoration-style:double;
-     font-size:25px;
-}
-.menu-item:hover{
-       background-color: blue;
-}
-.menu-item:active{
-     background-color: blue;
-}
+
    /*/ Fin de Pagina /*/
 .prueba{
     display: flex;
-    height: 800px;
+    height: 700px;
 } 
 .izquierdo {
     float: left;
-    width: 150px;
-    background-color: yellow;
+    width: 300px;
+    background-color: white;
     height: 800px;
+    border: solid black;
+    background-image: url(./img/oni.jpg);
+    background-repeat: no-repeat;
 }
 
 .derecho{
     float: right;
-    width: 150px;
-    background-color: red;
+    width: 300px;
+    background-color: white;
     height: 800px;   
+    border: solid black;
+    background-image: url(./img/oni.jpg);
+    background-repeat: no-repeat;
 }
 main{
     flex: 1;
     display: flex;
     background-color: white;   
-}
-.columna1{
-    width: 30%;
-    background-color: blue;
-    margin-left: 10%;
-    height: 300px;
-
-}
-.columna2{
-    margin-left: 5%;
-    width: 30%;
-    background-color: antiquewhite;
-    margin-right: 5%;
-    height: 300px;
-}
-.columna3{
-    width: 30%;
-    margin-right: 10%;
-    height: 300px;
+    background-image: url(./img/pared\ blanca.avif);
 }
 .container{
     font-family: justify;
     padding: 10px;
 }
   footer{
-    background-color: aqua;
+    background-color: white;
     text-align: center;
-    padding: 2px;
+    margin-top: 100px;
+    border: solid black;
 }
 
   
