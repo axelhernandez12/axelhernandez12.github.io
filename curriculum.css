@@ -41,7 +41,7 @@ h1 {
     float: left;
     width: 300px;
     background-color: white;
-    height: 800px;
+    height: 950px;
     border: solid black;
     background-image: url(./img/oni.jpg);
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ h1 {
     float: right;
     width: 300px;
     background-color: white;
-    height: 800px;
+    height: 950px;
     border: solid black;
     background-image: url(./img/oni.jpg);
     background-repeat: no-repeat;
@@ -70,7 +70,6 @@ main {
     flex: 1;
     background-color: white;
     background-image: url(./img/pared\ blanca.avif);
-    border: solid black;
 }
 
 .container {
@@ -131,4 +130,5 @@ footer {
     background-color: white;
     text-align: center;
     border: solid black;
+
 }
