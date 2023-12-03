@@ -34,7 +34,7 @@ h1{
     font-size: 40px;
 }
 aside {
-    height: 690px;
+    height: 785px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -110,9 +110,9 @@ header{
     z-index: 1;
 }
 footer{
-    margin-top: 248px;
+    margin-top: 350px;
     text-align: center;
     background: white;
-    height: 40px;
+    height: 50px;
     border: solid black;
 }

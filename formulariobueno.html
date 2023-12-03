@@ -37,61 +37,57 @@
             <form action="formularios.php">
                 <fieldset class="Formulario">
                     <legend>Datos personales</legend>
-                    <label>
-                        <p> Nombre :<input type="text" name="nombre" placeholder="Ingrese su Nombre"></p>
-                    </label>
-                    <label>
-                        <p> Apellidos : <input type="text" name="apellidos" placeholder="Ingrese sus apellidos"></p>
-                    </label>
-                    <label>
-                        <p> Correo<input type="email" name="correo" placeholder="Ingrese su correo"></p>
-                    </label>
-                    <label>
-                        <p> Fecha de nacimiento:<input type="date" name="edad"></p>
-                    </label>
-                    <label>
-                        <p> Contraseña<input type="password" placeholder="Contraseña"></p>
-                    </label>
-                    <label>
-                        <p> Sexo :
+                    <ul>
+                        <li>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre Completo"
+                                size="25">
+                        </li>
+                        <li>
+                            <label for="correo">Correo</label>
+                            <input type="email" id="correo" name="correo" size="30">
+                        </li>
+                        <li>
+                            <label for="fecha">Fecha de nacimiento:</label>
+                            <input type="date" id="fecha" name="edad">
+
+                        </li>
+                        <li>
+                            <label for="contraseña">Contraseña</label>
+                            <input type="password" id="contraseña" placeholder="Contraseña">
+                        </li>
+                        <li>
+                            Sexo :
                             <input type="radio" name="hm" value="M">Mujer
                             <input type="radio" name="hm" value="Hm">Hombre
-                        </p>
-                    </label>
-
-
-
+                        </li>
+                    </ul>
                 </fieldset>
                 <fieldset class="Formulario">
                     <legend>Otros Datos</legend>
-                    <label>
-                        <p>Elija un Color<input class="rojo" type="color" name="color" value="#ff0000"></p>
-                    </label>
-                    <label>
-                        <p>Se considera:
-                            <input type="checkbox" name="casilla" checked>Humano
-                            <input type="checkbox" name="casilla" checked>Animal
-                        </p>
-                    </label>
-                    <label>
-                        <p>indique su Nivel de pro:
-                            <input type="range" name="rango" min="1" max="10" step="0.1">
-                        </p>
-                    </label>
-                    <label>
-                        <p> Es mayor de edad: <input type="number" name="numero" min="18"></p>
-                    </label>
-                    <label>
-                        <p>A que hora quiere que le llamemos<input type="time"></p>
-                    </label>
+                    Elija un Color<input class="rojo" type="color" name="color" value="#ff0000">
+                    Se considera:
+                    <input type="checkbox" name="casilla" checked>Humano
+                    <input type="checkbox" name="casilla" checked>Animal
+                    indique su Nivel de pro:
+                    <input type="range" name="rango" min="1" max="10" step="0.1">
+                    <ul>
+                        <li>
+                            <label for="edad">Es mayor de edad</label>
+                            <input type="number" id="edad" name="numero" min="18">
+                        </li>
+
+                    </ul>
+                    <label for="tiempo">A que hora puede recibir llamadas</label>
+                    <input type="time" id="tiempo">
                 </fieldset>
                 <fieldset class="Formulario">
                     <legend>Datos extras</legend>
                     <label>
-                        <p>Quiere realizar una busqueda<input type="url" name="direccion" size="30"></p>
+                        Quiere realizar una busqueda<input type="url" name="direccion" size="30">
                     </label>
                     <label>
-                        <p> telefono<input type="tel" name="telefono"></p>
+                        telefono<input type="tel" name="telefono">
                     </label>
                     <label>
                         <input type="button" value="Enviar">
