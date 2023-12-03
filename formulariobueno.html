@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./formularionuevo.css">
+</head>
+
+<body>
+    <!--  -->
+    <header>
+        <h1>Formulario</h1>
+        <div class="container">
+            <nav>
+                <div class="nav-item">
+                    <a href="./curriculum.html" target="_blank">Curriculum</a>
+                </div>
+                <div class="nav-item">
+                    <a href="./index.html" target="_blank">Pagina Principal</a>
+                </div>
+                <div class="nav-item">
+                    <a href="./sobreelproyecto.html" target="_blank">Sobre el Proyecto</a>
+                </div>
+                <div class="nav-item">
+                    <a href="formulariobueno.html" target="_blank">Formulario</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="prueba">
+        <aside class="izquierdo">
+            <p></p>
+        </aside>
+        <main>
+            <form action="formularios.php">
+                <fieldset class="Formulario">
+                    <legend>Datos personales</legend>
+                    <label>
+                        <p> Nombre :<input type="text" name="nombre" placeholder="Ingrese su Nombre"></p>
+                    </label>
+                    <label>
+                        <p> Apellidos : <input type="text" name="apellidos" placeholder="Ingrese sus apellidos"></p>
+                    </label>
+                    <label>
+                        <p> Correo<input type="email" name="correo" placeholder="Ingrese su correo"></p>
+                    </label>
+                    <label>
+                        <p> Fecha de nacimiento:<input type="date" name="edad"></p>
+                    </label>
+                    <label>
+                        <p> Contraseña<input type="password" placeholder="Contraseña"></p>
+                    </label>
+                    <label>
+                        <p> Sexo :
+                            <input type="radio" name="hm" value="M">Mujer
+                            <input type="radio" name="hm" value="Hm">Hombre
+                        </p>
+                    </label>
+
+
+
+                </fieldset>
+                <fieldset class="Formulario">
+                    <legend>Otros Datos</legend>
+                    <label>
+                        <p>Elija un Color<input class="rojo" type="color" name="color" value="#ff0000"></p>
+                    </label>
+                    <label>
+                        <p>Se considera:
+                            <input type="checkbox" name="casilla" checked>Humano
+                            <input type="checkbox" name="casilla" checked>Animal
+                        </p>
+                    </label>
+                    <label>
+                        <p>indique su Nivel de pro:
+                            <input type="range" name="rango" min="1" max="10" step="0.1">
+                        </p>
+                    </label>
+                    <label>
+                        <p> Es mayor de edad: <input type="number" name="numero" min="18"></p>
+                    </label>
+                    <label>
+                        <p>A que hora quiere que le llamemos<input type="time"></p>
+                    </label>
+                </fieldset>
+                <fieldset class="Formulario">
+                    <legend>Datos extras</legend>
+                    <label>
+                        <p>Quiere realizar una busqueda<input type="url" name="direccion" size="30"></p>
+                    </label>
+                    <label>
+                        <p> telefono<input type="tel" name="telefono"></p>
+                    </label>
+                    <label>
+                        <input type="button" value="Enviar">
+                    </label>
+                </fieldset>
+            </form>
+
+        </main>
+        <aside class="derecho">
+            <p></p>
+        </aside>
+    </div>
+    <footer>
+        <p>Proyecto 1 Evaluación Axel Mauricio Hernández Alvarado</p>
+    </footer>
+</body>
+
+</html>

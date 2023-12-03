@@ -26,6 +26,7 @@ nav {
 }
 p{
   font-size: 30px;
+  font: 150% sans-serif;
 }
 h1{
     text-align: center;
@@ -68,13 +69,7 @@ section.columnas {
     break-after: column;
     font-size: 20px;
 }
-footer{
-    margin-top: 390px;
-    text-align: center;
-    background: white;
-    height: 40px;
-    border: solid black;
-}
+
 .columna1{
     margin-top: 100px;
 }
@@ -113,4 +108,11 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+}
+footer{
+    margin-top: 248px;
+    text-align: center;
+    background: white;
+    height: 40px;
+    border: solid black;
 }

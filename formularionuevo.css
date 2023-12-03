@@ -1,10 +1,7 @@
 /*/Comienzo de formulario/*/
 * {
     margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
     font-style: unset;
-    color: white;
 }
 body {
    background-image:url(./img/pared\ blanca.avif) ;
@@ -16,73 +13,9 @@ header {
      top: 0;
      z-index: 1;
 }
-.form-register {
-     width: 700px;
-     background-color: white;
-     padding: 40px;
-     margin:auto;
-     border-radius: 50px;
-     color:black;
-     height: 500px;
-     border: solid black;
-
-}
-.form-register h3 {
-     font-size: 40px;
-     margin-bottom: 5px;
- }
-.controls {
-     width: 200px;
-     background-color:white; 
-     padding: 5px;
-     border-radius: 4px;
-     margin-bottom:15px;
-     font-family:'calibri';
-     font-size: 15px;
-     color: black;
-     height: 70px;
-}
-.rojo {
-     margin-top: 10px;
-     width: 180px;
-     background-color:white; 
-     padding: 5px;
-     border-radius: 4px;
-     margin-bottom:15px;
-     font-family:'calibri';
-     font-size: 15px;
-     color: black;
-}
-
-.form-register p{
-     height: 40px;
-     font-size: 18px;
-     
-}
-.form-register a{
-     color:white;
-     text-decoration: none;
- 
-}
-.form-register a:hover {
-     color:white;
-     text-decoration: underline;
-}
-.form-register .button{
-     border: none;
-     padding:12px;
-     margin: 0px 50px;
-     font-size: 16px;
- 
-   /*/Fin de formulario/*/
-   /*/Comienzo de nav /*/   
-}
-.Joan{
-     margin-right: 400px;
-}
 p{
    color:black;
-   font-size:30px;
+   font-size:17px;
 }
 h3{
    color:black;
@@ -97,6 +30,8 @@ nav {
      border-radius:25px;
      padding:5px;
      text-align:center;
+     font-family: justify;
+     
 }
 nav div {
      display: inline-block;
@@ -117,6 +52,18 @@ nav div {
     display: flex;
     height: 700px;
 } 
+.Formulario{
+     color: black;
+     padding: 30px;
+     border: solid black;
+}
+.Formulario p{
+     margin-top: 10px;
+     padding: 2px;
+}
+legend{
+     font-size: 20px;
+}
 .izquierdo {
     float: left;
     width: 300px;
@@ -138,7 +85,6 @@ nav div {
 }
 main{
     flex: 1;
-    display: flex;
     background-color: white;   
     background-image: url(./img/pared\ blanca.avif);
 }
