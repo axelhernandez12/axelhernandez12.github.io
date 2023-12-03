@@ -14,10 +14,7 @@ header {
      top: 0;
      z-index: 1;
 }
-p{
-   color:black;
-   font-size:17px;
-}
+
 h3{
    color:black;
 }
@@ -101,6 +98,7 @@ main{
     margin-top: 100px;
     border: solid black;
     height: 40px;
+    font-size: 30px;
 }
 
  /*Axel Mauricio Hernández Alvarado  */
